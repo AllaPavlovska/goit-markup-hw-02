@@ -1,18 +1,18 @@
-.body{
+body{
     font-family: "Roboto",
         sans-serif;
+        size: 16px;
     color: #434455;
     background-color: #FFFFFF;
 }
 
 :root{
- --cloud-color: #F4F4FD;
- --navy-color: #2E2F42;
+ 
 
 }
 
-
-.logo{
+/*index.html*/
+.logo-link{
 
     font-family: "Raleway",sans-serif;
     font-weight: 800;
@@ -37,7 +37,9 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+   
 }
+
 
 .solution-button{
     background-color: #4D5AE5;
@@ -59,3 +61,10 @@
     background-color: #404BBF;
 }
 
+.list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
