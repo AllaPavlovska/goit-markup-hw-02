@@ -24,7 +24,7 @@
     
 }
 .list{
-    list-style: none
+    list-style: none;
 }
 .link{
     text-decoration: none;
@@ -35,13 +35,15 @@
 letter-spacing: 0.03em;
 
  }
- .logo-text-two{
+ .logo-text-second{
 color: #f4f4fd;
  }
  .nav-list{
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
+    letter-spacing: 0.02em;
  }
  .nav-list:hover{
     color: #404bbf;
@@ -72,7 +74,8 @@ color: #404bbf;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0,02em;
-       }
+}
+
 .titlefirst{
     font-size: 56px;
     line-height: 1.07;
@@ -166,7 +169,7 @@ color: #2e2f42;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-.logo-text span{
+.logo-text{
     color: #f4f4fd;
 }
 /*portfolio.html*/
