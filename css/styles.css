@@ -76,21 +76,13 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0,02em;
 }
-
-.titlefirst{
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+.title-first{
     color: var(--white-color);
-   
 }
 .titlesecond{
     font-weight: 500;
     line-height: 1.2;
-        letter-spacing: 0.02em;
         font-size: 20px;
-        line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navy-color);
 }
@@ -120,9 +112,7 @@ letter-spacing: 0,02em;
     text-transform: capitalize;
     color: var(--navy-color);
 }
-.people{
-    background-color: var(--white-color);
-}
+
 .section-describtion{
     background-color: var(--cloud-color);
 
@@ -160,14 +150,11 @@ color: var(--navy-color);
     cursor:pointer;
 }
 
-.solution-button:hover{
-    background-color: var(--button-color);
-
-}
-
-.solution-button:focus{
+.solution-button:hover,.solution-button:focus{
     background-color: var(--button-color);
 }
+
+
 
 .footer-describtion{
     line-height: 1.5;
