@@ -32,6 +32,7 @@
 }
  .logo-text{
   color:  #2e2f42;
+letter-spacing: 0.03em;
 
  }
  .logo-text-two{
@@ -67,10 +68,10 @@ color: #404bbf;
 .section-solution{
     background-color: #2e2f42;
 }
-       .title{
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+.title{
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0,02em;
        }
 .titlefirst{
     font-size: 56px;
@@ -94,6 +95,9 @@ color: #404bbf;
 .title-describtion{
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 
 }
 .section-footer{
@@ -157,15 +161,53 @@ color: #2e2f42;
     background-color: #404BBF;
 }
 
-.list{
+.footer-describtion{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+.logo-text span{
+    color: #f4f4fd;
+}
+/*portfolio.html*/
+ 
+.logo-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.link-button{
+background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    cursor: pointer
+
+}
+
+.link-button:hover,
+.link-button:focus{
+color: #FFFFFF;
+background-color: #404BBF;
+}
+.another-describtion{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.footer-describtion{
+.paragraph-text{
+    font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
     letter-spacing: 0.02em;
+    color: #434455;
 }
+
