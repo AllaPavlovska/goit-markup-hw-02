@@ -32,8 +32,6 @@
 }
  .logo-text{
   color:  #2e2f42;
-letter-spacing: 0.03em;
-
  }
  .logo-text-second{
 color: #f4f4fd;
@@ -173,8 +171,9 @@ color: #2e2f42;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
-.logo-text{
-    color: #f4f4fd;
+
+.logo-text span{
+    color: #2e2f42;
 }
 /*portfolio.html*/
  
@@ -188,7 +187,7 @@ color: #2e2f42;
     color: #4d5ae5;
 }
 .link-button{
-background-color: #4D5AE5;
+     background-color: #F4F4FD;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
